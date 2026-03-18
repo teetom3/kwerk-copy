@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Nos adresses – kwerk',
-  description: 'Quatre adresses d\'exception dans le 8ème arrondissement de Paris : Messine, Saint-Honoré, Madeleine, Haussmann.',
+  description: 'Six adresses d\'exception dans le 8ème arrondissement de Paris : Messine, Saint-Honoré, Madeleine, Haussmann, Elysée et Versailles.',
 }
 
 const locations = [
