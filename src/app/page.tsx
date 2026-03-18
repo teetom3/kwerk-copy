@@ -378,7 +378,7 @@ export default function HomePage() {
                 Parlons de <em>votre projet</em>
               </h2>
               <p className="font-sans font-light text-kwerk-grey text-sm leading-relaxed mb-8">
-                Notre équipe vous accompagne pour trouver l'espace idéal parmi nos quatre adresses parisiennes. Chaque demande fait l'objet d'une attention personnalisée.
+                Notre équipe vous accompagne pour trouver l'espace idéal parmi nos six adresses parisiennes. Chaque demande fait l'objet d'une attention personnalisée.
               </p>
               <div className="space-y-4">
                 <div>
