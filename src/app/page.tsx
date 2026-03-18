@@ -160,7 +160,7 @@ export default function HomePage() {
             </h2>
             <div className="w-12 h-px bg-kwerk-gold mx-auto my-10" />
             <p className="font-sans font-light text-kwerk-grey text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-              Dans chacune de nos quatre adresses du 8ème arrondissement, nous avons pensé chaque détail pour que votre lieu de travail devienne un avantage compétitif. Un cadre d'excellence qui inspire, qui protège et qui rayonne.
+              Dans chacune de nos six adresses du 8ème arrondissement, nous avons pensé chaque détail pour que votre lieu de travail devienne un avantage compétitif. Un cadre d'excellence qui inspire, qui protège et qui rayonne.
             </p>
           </div>
         </div>
