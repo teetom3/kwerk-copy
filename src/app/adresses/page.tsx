@@ -123,7 +123,7 @@ export default function AdressesPage() {
             Paris 8ème
           </p>
           <h1 className="font-serif text-5xl md:text-7xl font-light text-white leading-tight mb-8 max-w-2xl">
-            Quatre adresses<br />d'exception
+            Six adresses<br />d'exception
           </h1>
           <p className="font-sans font-light text-white/60 text-sm md:text-base leading-relaxed max-w-xl">
             Chacune de nos adresses est le fruit d'une vision architecturale singulière et d'une attention portée aux moindres détails, pour créer des lieux de travail véritablement exceptionnels.
