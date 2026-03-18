@@ -241,14 +241,14 @@ export default function HomePage() {
             </div>
             {/* Visual placeholder */}
             <div className="relative h-[600px]">
-              <div className="absolute inset-0 bg-gradient-to-br from-stone-700 to-stone-900 rounded-sm" />
-              <div className="absolute inset-4 border border-kwerk-gold/20" />
-              <div className="absolute bottom-8 left-8 right-8">
-                <div className="w-full h-px bg-kwerk-gold/30" />
-                <p className="text-kwerk-gold/50 text-xs tracking-widest uppercase font-sans font-light mt-4 text-center">
-                  Bureau privatif — Messine
-                </p>
-              </div>
+              <Image
+                src="/images/KWERK-MESSINE.jpg"
+                alt="Bureau privatif — Messine"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                className="object-cover rounded-sm"
+                priority={false}
+              />
             </div>
           </div>
         </div>
