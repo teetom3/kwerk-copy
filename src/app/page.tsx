@@ -171,7 +171,7 @@ export default function HomePage() {
         <div className="max-w-screen-xl mx-auto px-6 md:px-10">
           <div className="mb-16">
             <p className="text-kwerk-gold text-xs tracking-[0.4em] uppercase font-sans font-light mb-4">
-              Quatre adresses
+              Six adresses
             </p>
             <h2 className="font-serif text-4xl md:text-5xl font-light text-kwerk-dark">
               Nos adresses
