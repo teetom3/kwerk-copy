@@ -39,6 +39,24 @@ const locations = [
     highlight: 'Architecture ouverte & lumière naturelle',
     bg: 'bg-neutral-200',
   },
+  {
+    id: 'elysee',
+    name: 'Elysée',
+    address: '75008',
+    description:
+      'Un espace d\'exception au cœur de l\'un des quartiers les plus prestigieux de Paris, conçu pour l\'excellence et la discrétion.',
+    highlight: 'Prestige & discrétion',
+    bg: 'bg-stone-100',
+  },
+  {
+    id: 'versailles',
+    name: 'Versailles',
+    address: '75008',
+    description:
+      'Une adresse d\'exception à Versailles, offrant un cadre de travail unique alliant histoire et modernité dans un environnement paisible.',
+    highlight: 'Histoire & modernité',
+    bg: 'bg-stone-400',
+  },
 ]
 
 const services = [
