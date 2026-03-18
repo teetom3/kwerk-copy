@@ -76,6 +76,40 @@ const locations = [
     ],
     accent: 'from-neutral-600 to-neutral-800',
   },
+  {
+    id: 'elysee',
+    name: 'Elysée',
+    address: 'Avenue de l\'Elysée',
+    city: '75008 Paris',
+    description:
+      'Espace prestigieux offrant une ambiance raffinée et prestigieuse. Situé au cœur d\'une adresse emblématique du 8ème arrondissement, ce lieu allie élégance et fonctionnalité pour un environnement de travail d\'exception.',
+    features: [
+      'Ambiance prestigieuse',
+      'Adresse emblématique',
+      'Design élégant',
+      'Espaces fonctionnels',
+      'Salles de réunion',
+      'Service haut de gamme',
+    ],
+    accent: 'from-amber-700 to-amber-900',
+  },
+  {
+    id: 'versailles',
+    name: 'Versailles',
+    address: 'Avenue de Versailles',
+    city: '75008 Paris',
+    description:
+      'Un espace inspiré de l\'élégance intemporelle du style classique français. Avec ses intérieurs raffinés et ses aménagements prestigieux, cette adresse incarne l\'excellence et le prestige au service de vos ambitions professionnelles.',
+    features: [
+      'Style classique raffiné',
+      'Intérieurs prestigieux',
+      'Aménagements d\'exception',
+      'Atmosphère élégante',
+      'Espaces de prestige',
+      'Excellence française',
+    ],
+    accent: 'from-rose-700 to-rose-900',
+  },
 ]
 
 export default function AdressesPage() {
