@@ -87,14 +87,16 @@ export default function HomePage() {
     <>
       {/* ─── HERO ─── */}
       <section className="relative h-screen flex items-end justify-start overflow-hidden">
-        {/* Placeholder background - in production, use a real image */}
-        <div className="absolute inset-0 bg-kwerk-black">
-          <div className="absolute inset-0 bg-gradient-to-br from-stone-800 via-kwerk-black to-stone-900 opacity-90" />
-          {/* Decorative element simulating luxury office */}
-          <div className="absolute inset-0 flex items-center justify-center opacity-10">
-            <div className="w-full h-full bg-[radial-gradient(ellipse_at_30%_40%,rgba(201,169,110,0.3)_0%,transparent_60%)]" />
-          </div>
-        </div>
+        {/* Hero background image */}
+        <Image
+          src="/images/hero-terrasse.jpg"
+          alt="Terrasse - Bureaux d'exception Kwerk"
+          fill
+          className="object-cover"
+          priority
+        />
+        {/* Overlay gradient */}
+        <div className="absolute inset-0 bg-gradient-to-br from-stone-800/80 via-kwerk-black/85 to-stone-900/80" />
 
         {/* Content */}
         <div className="relative z-10 max-w-screen-xl mx-auto px-6 md:px-10 pb-20 md:pb-32 w-full">
