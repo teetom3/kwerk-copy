@@ -93,8 +93,9 @@ export default function HomePage() {
           src="/images/hero-terrasse.jpg"
           alt="Terrasse - Bureaux d'exception Kwerk"
           fill
-          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
           priority
+          style={{ objectFit: 'cover' }}
         />
         {/* Overlay gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-stone-800/80 via-kwerk-black/85 to-stone-900/80" />
