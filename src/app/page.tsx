@@ -163,10 +163,20 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
             {locations.map((loc, i) => (
               <div key={loc.id} className="group relative overflow-hidden">
-                {/* Image placeholder */}
+                {/* Image placeholder or actual image */}
                 <div
-                  className={`relative h-[450px] md:h-[500px] ${loc.bg} overflow-hidden`}
+                  className={`relative h-[450px] md:h-[500px] overflow-hidden ${loc.id === 'haussmann' ? '' : loc.bg}`}
                 >
+                  {loc.id === 'haussmann' && (
+                    <Image
+                      src="/images/lobby-haussmann.jpg"
+                      alt={`${loc.name} - Kwerk`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                      className="object-cover"
+                      priority={false}
+                    />
+                  )}
                   {/* Gradient overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-kwerk-black/80 via-kwerk-black/20 to-transparent z-10 transition-opacity duration-500 group-hover:opacity-70" />
 
