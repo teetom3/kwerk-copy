@@ -183,11 +183,21 @@ export default function HomePage() {
               <div key={loc.id} className="group relative overflow-hidden">
                 {/* Image placeholder or actual image */}
                 <div
-                  className={`relative h-[450px] md:h-[500px] overflow-hidden ${loc.id === 'haussmann' ? '' : loc.bg}`}
+                  className={`relative h-[450px] md:h-[500px] overflow-hidden ${(loc.id === 'haussmann' || loc.id === 'elysee') ? '' : loc.bg}`}
                 >
                   {loc.id === 'haussmann' && (
                     <Image
                       src="/images/lobby-haussmann.jpg"
+                      alt={`${loc.name} - Kwerk`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                      className="object-cover"
+                      priority={false}
+                    />
+                  )}
+                  {loc.id === 'elysee' && (
+                    <Image
+                      src="/images/terrasse-elysee.jpg"
                       alt={`${loc.name} - Kwerk`}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
