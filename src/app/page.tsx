@@ -205,6 +205,16 @@ export default function HomePage() {
                       priority={false}
                     />
                   )}
+                  {loc.id === 'madeleine' && (
+                    <Image
+                      src="/images/batiment-madeleine.jpg"
+                      alt={`${loc.name} - Kwerk`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                      className="object-cover"
+                      priority={false}
+                    />
+                  )}
                   {/* Gradient overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-kwerk-black/80 via-kwerk-black/20 to-transparent z-10 transition-opacity duration-500 group-hover:opacity-70" />
 
