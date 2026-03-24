@@ -113,7 +113,7 @@ export default function HomePage() {
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
           priority
-          style={{ objectFit: 'cover', opacity: 0.1 }}
+          style={{ objectFit: 'cover' }}
         />
 
 
