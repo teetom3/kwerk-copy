@@ -177,7 +177,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
             {locations.map((loc, i) => (
               <div key={loc.id} className="group relative overflow-hidden">
                 {/* Image placeholder or actual image */}
