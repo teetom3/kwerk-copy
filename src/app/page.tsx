@@ -127,7 +127,7 @@ export default function HomePage() {
             <h1 className="font-serif text-5xl md:text-7xl font-light text-red-600 leading-tight mb-8 animate-fade-in-up-delay">
               Coucou c'est nous
             </h1>
-            <p className="font-sans font-light text-white/70 text-sm md:text-base leading-relaxed mb-10 max-w-xl animate-fade-in-up-delay-2">
+            <p className="font-sans font-light text-red-600/70 text-sm md:text-base leading-relaxed mb-10 max-w-xl animate-fade-in-up-delay-2">
               Kwerk crée des bureaux d'exception au cœur de Paris, où hospitalité, discrétion et art de recevoir façonnent une expérience de travail unique.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in-up-delay-2">
