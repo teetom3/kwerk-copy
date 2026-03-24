@@ -113,7 +113,7 @@ export default function HomePage() {
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
           priority
-          style={{ objectFit: 'cover' }}
+          style={{ objectFit: 'cover', opacity: 0.1 }}
         />
         {/* Overlay gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-stone-800/80 via-kwerk-black/85 to-stone-900/80" />
