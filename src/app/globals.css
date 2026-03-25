@@ -49,7 +49,7 @@ h1, h2, h3, h4 {
 }
 
 .nav-link:hover {
-  @apply text-kwerk-gold;
+  @apply text-white font-bold;
 }
 
 /* Buttons */
