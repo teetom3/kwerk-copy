@@ -124,7 +124,7 @@ export default function HomePage() {
               Paris 8ème — Bureaux d'exception
             </p>
             <h1 className="font-serif text-5xl md:text-7xl font-light text-red-600 leading-tight mb-8 animate-fade-in-up-delay">
-              et là c'est moi
+              des bureaux d'exception a paris
             </h1>
             <p className="font-sans font-light text-red-600/70 text-sm md:text-base leading-relaxed mb-10 max-w-xl animate-fade-in-up-delay-2">
               Kwerk crée des bureaux d'exception au cœur de Paris, où hospitalité, discrétion et art de recevoir façonnent une expérience de travail unique.
