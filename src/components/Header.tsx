@@ -57,7 +57,7 @@ export default function Header() {
               >
                 <Link
                   href={link.href}
-                  className={`nav-link ${scrolled ? 'text-kwerk-dark hover:text-white hover:font-bold' : 'text-white hover:text-white hover:font-bold'}`}
+                  className={`nav-link ${scrolled ? 'text-kwerk-dark !hover:text-white !hover:font-bold' : 'text-white !hover:text-white !hover:font-bold'}`}
                 >
                   {link.label}
                 </Link>
