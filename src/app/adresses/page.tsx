@@ -188,7 +188,7 @@ export default function AdressesPage() {
                     href="/galerie"
                     className="text-kwerk-dark text-xs tracking-widest uppercase font-sans font-light underline underline-offset-4 hover:text-kwerk-gold transition-colors self-center"
                   >
-                    Voir la galerie
+                    Voir les images
                   </Link>
                 </div>
               </div>
