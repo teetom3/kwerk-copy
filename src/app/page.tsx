@@ -108,14 +108,16 @@ export default function HomePage() {
       <section className="relative h-screen flex items-end justify-start overflow-hidden">
         {/* Hero background image */}
         <Image
-          src="/hero.jpg"
-          alt="Terrasse - Bureaux d'exception Kwerk"
+          src="/Bureau_header.png"
+          alt="Bureau - Bureaux d'exception Kwerk"
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
           priority
           style={{ objectFit: 'cover' }}
         />
 
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black/30 z-5" />
 
         {/* Content */}
         <div className="relative z-10 max-w-screen-xl mx-auto px-6 md:px-10 pb-20 md:pb-32 w-full">
