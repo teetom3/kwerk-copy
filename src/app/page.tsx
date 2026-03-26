@@ -154,7 +154,7 @@ export default function HomePage() {
         <div className="max-w-screen-xl mx-auto px-6 md:px-10">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-kwerk-gold text-xs tracking-[0.4em] uppercase font-sans font-light mb-8">
-              Notre philosophie
+              Vivez l'expérience kwerk
             </p>
             <h2 className="font-serif text-4xl md:text-5xl font-light text-kwerk-dark leading-tight">
               Hospitalité, discrétion<br />et art de recevoir
