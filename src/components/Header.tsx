@@ -8,7 +8,7 @@ const navLinks = [
   { label: 'Bureaux', href: '/#bureaux' },
   { label: 'Expériences', href: '/#experiences' },
   { label: 'Événements', href: '/#evenements' },
-  { label: 'Galerie', href: '/galerie' },
+  { label: 'Images', href: '/galerie' },
 ]
 
 export default function Header() {
