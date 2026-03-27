@@ -108,7 +108,7 @@ export default function HomePage() {
       <section className="relative h-screen flex items-end justify-start overflow-hidden">
         {/* Hero background image */}
         <Image
-          src="/images/Bureau_header.png"
+          src="/hero.jpg"
           alt="Bureau - Bureaux d'exception Kwerk"
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
