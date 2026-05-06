@@ -410,7 +410,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <p className="text-xs tracking-widest uppercase font-sans font-light text-kwerk-grey mb-2">Nos adresses</p>
-                  {locations.map((l) => (
+                  {locations.filter((l) => l.address).map((l) => (
                     <p key={l.id} className="text-sm font-sans font-light text-kwerk-dark/70">{l.address}</p>
                   ))}
                 </div>
