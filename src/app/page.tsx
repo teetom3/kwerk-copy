@@ -42,7 +42,7 @@ const locations = [
   {
     id: 'elysee',
     name: 'Elysée',
-    address: '75008',
+    address: '',
     description:
       'Un espace d\'exception au cœur de l\'un des quartiers les plus prestigieux de Paris, conçu pour l\'excellence et la discrétion.',
     highlight: 'Prestige & discrétion',
