@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
 
 /* Navigation */
 .nav-link {
-  @apply text-xs tracking-widest uppercase font-sans font-light transition-colors duration-300;
+  @apply text-xs tracking-widest uppercase font-sans font-medium transition-colors duration-300;
 }
 
 .nav-link:hover {
