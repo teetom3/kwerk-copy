@@ -51,7 +51,7 @@ const locations = [
   {
     id: 'versailles',
     name: 'Versailles',
-    address: '75008',
+    address: '',
     description:
       'Une adresse d\'exception à Versailles, offrant un cadre de travail unique alliant histoire et modernité dans un environnement paisible.',
     highlight: 'Histoire & modernité',
